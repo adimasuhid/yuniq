@@ -1,0 +1,41 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  background: url("bg.png");
+}
+
+.row-wrapper {  
+  &.shirt{
+    height: 600px;
+    overflow:hidden;
+    background: radial-gradient(#00F,#FFF);
+    /*background-image: -webkit-radial-gradient(10px closest-side circle, #63c2df,#049ccb);*/
+    background-image: -webkit-radial-gradient(100px closest-side circle, #ffffff,#049ccb);
+    opacity:0.2;
+    /*background: #000000; [> fallback for non-supporting browsers <]  */
+    /*background-image: -webkit-gradient(radial, center center, 0, center center, 141, from(black), to(white), color-stop(25%, blue), color-stop(40%, green), color-stop(60%, red), color-stop(80%, purple)); [> old WebKit Syntax <]  */
+    /*background-image: -webkit-radial-gradient(center center, circle contain, white 80%, #069ecd 100%); [> New WebKit syntax <]  */
+    /*background-image: -moz-radial-gradient(center center, circle contain, black 0%, blue 25%, green 40%, red 60%, purple 80%, white 100%);  */
+    /*background-image: -ms-radial-gradient(center center, circle contain, black 0%, blue 25%, green 40%, red 60%, purple 80%, white 100%); [> IE10+ <]  */
+    /*background-image: -o-radial-gradient(center center, circle contain, black 0%, blue 25%, green 40%, red 60%, purple 80%, white 100%); [> Opera (13?) <]  */
+    /*background-image: radial-gradient(center center, 60px 70px, black, black);*/
+  }
+  &.designer{
+    background: url("designer-bg.png");
+    border-top: 25px solid white;
+    h3{text-align:center;}
+  }
+
+}  
+
+.image-wrapper{
+  &.round-large{
+    border-radius:400px;
+    border: 10px solid white;
+    height:400px;
+    width:400px;
+    overflow: hidden;
+  }
+}

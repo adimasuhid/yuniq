@@ -1,0 +1,10 @@
+%h2 The designer
+.row
+  .five.columns.centered
+    .image-wrapper.round-large
+      =image_tag @designer.image_url
+    %h3=@designer.name
+.row
+  .twelve.columns
+    .panel
+      = @designer.description
