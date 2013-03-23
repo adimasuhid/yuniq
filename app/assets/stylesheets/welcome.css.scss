@@ -25,7 +25,11 @@ body{
   &.designer{
     background: url("designer-bg.png");
     border-top: 25px solid white;
-    h3{text-align:center;}
+    h3{
+      text-align:center; 
+      font-size:30px; 
+      line-height: 50px;
+      color:white;}
   }
 
 }  

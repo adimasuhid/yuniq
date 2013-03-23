@@ -55,6 +55,8 @@ GEM
       rails (~> 3.0)
       sass
     fssm (0.2.10)
+    google-webfonts (0.1.2)
+      actionpack (>= 3.0.0)
     haml (4.0.0)
       tilt
     haml-rails (0.4)
@@ -143,6 +145,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   compass-rails
   foundation-icons-rails
+  google-webfonts
   haml-rails
   jquery-rails
   quiet_assets

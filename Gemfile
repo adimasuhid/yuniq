@@ -18,6 +18,7 @@ group :assets do
   gem 'zurb-foundation'
   gem 'foundation-icons-rails'
   gem 'haml-rails'
+  gem 'google-webfonts'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

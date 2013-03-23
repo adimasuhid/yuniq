@@ -12,3 +12,11 @@
  *= require foundation_and_overrides
  *= require_tree .
  */
+
+h3{
+  font-family: 'Lobster', Georgia, Times, serif !important;
+}
+
+h1,h2{
+  font-family: 'Raleway', Helvetica, Arial, sans-serif !important;
+}
