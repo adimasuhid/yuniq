@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130323023205) do
+ActiveRecord::Schema.define(:version => 20130325144543) do
 
   create_table "designers", :force => true do |t|
     t.string   "first_name"
@@ -19,8 +19,11 @@ ActiveRecord::Schema.define(:version => 20130323023205) do
     t.integer  "shirt_id"
     t.text     "description"
     t.string   "image_url"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.string   "facebook_url"
+    t.string   "twitter_url"
+    t.string   "google_url"
   end
 
   create_table "shirts", :force => true do |t|

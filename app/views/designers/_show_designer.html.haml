@@ -13,7 +13,15 @@
         .ribbon-edge-bottomright
         .ribbon-back-left
         .ribbon-back-right
+    .six.columns.centered
+      %a.icon-facebook-sign.icon-4x{href: @designer.facebook_url}
+      %a.icon-twitter-sign.icon-4x{href: @designer.twitter_url}
+      %a.icon-google-plus-sign.icon-4x{href: @designer.google_url}
 .row
   .twelve.columns
+    %h2 Who IS?
     .panel
+      %i.icon-quote-left.icon-4x.pull-left
       = @designer.description
+   
+

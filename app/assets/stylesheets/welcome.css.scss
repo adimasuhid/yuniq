@@ -6,14 +6,18 @@ body{
   background: url("bg.png");
 }
 
+.header{
+  color:white;
+}
+
 .row-wrapper {  
+  min-height: 600px;
   &.shirt{
-    height: 600px;
     overflow:hidden;
     background: radial-gradient(#00F,#FFF);
     /*background-image: -webkit-radial-gradient(10px closest-side circle, #63c2df,#049ccb);*/
-    background-image: -webkit-radial-gradient(100px closest-side circle, #ffffff,#049ccb);
-    opacity:0.2;
+    background-image: -webkit-radial-gradient(500px  circle, #ffffff,#049ccb);
+    opacity:1;
     /*background: #000000; [> fallback for non-supporting browsers <]  */
     /*background-image: -webkit-gradient(radial, center center, 0, center center, 141, from(black), to(white), color-stop(25%, blue), color-stop(40%, green), color-stop(60%, red), color-stop(80%, purple)); [> old WebKit Syntax <]  */
     /*background-image: -webkit-radial-gradient(center center, circle contain, white 80%, #069ecd 100%); [> New WebKit syntax <]  */
@@ -31,6 +35,15 @@ body{
       line-height: 50px;
       color:white;}
   }
+  &.offer{
+    border-top: 25px solid white;
+    text-align:center;
+  }
+  &.footer{
+    line-height: 2;
+    min-height:30px;
+    background: white;
+  }
 
 }  
 
@@ -42,4 +55,8 @@ body{
     width:400px;
     overflow: hidden;
   }
+}
+
+.level{
+  color:#CB3303;
 }

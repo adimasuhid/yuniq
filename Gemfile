@@ -19,6 +19,7 @@ group :assets do
   gem 'foundation-icons-rails'
   gem 'haml-rails'
   gem 'google-webfonts'
+  gem 'font-awesome-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

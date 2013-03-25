@@ -10,13 +10,14 @@
  *
  *= require_self
  *= require foundation_and_overrides
+ *= require font-awesome
  *= require_tree .
  */
 
-h3{
+.designer h3{
   font-family: 'Lobster', Georgia, Times, serif !important;
 }
 
-h1,h2{
+h1,h2,h3{
   font-family: 'Raleway', Helvetica, Arial, sans-serif !important;
 }
